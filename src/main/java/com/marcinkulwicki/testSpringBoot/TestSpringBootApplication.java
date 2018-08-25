@@ -14,13 +14,8 @@ import org.springframework.stereotype.Component;
 @ComponentScan(basePackages = "com.marcinkulwicki")
 @SpringBootApplication
 @EnableJpaAuditing
-public class TestSpringBootApplication extends SpringBootServletInitializer {
-
-	@Override
-	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(TestSpringBootApplication.class);
-	}
-
+public class TestSpringBootApplication{
+	
 	public static void main(String[] args) {
 		SpringApplication.run(TestSpringBootApplication.class, args);
 	}

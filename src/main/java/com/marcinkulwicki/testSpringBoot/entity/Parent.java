@@ -59,4 +59,14 @@ public class Parent {
     public void setChildrenList(List<Children> childrenList) {
         this.childrenList = childrenList;
     }
+
+    @Override
+    public String toString() {
+        return "Parent{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                ", childrenList=" + childrenList +
+                '}';
+    }
 }

@@ -6,6 +6,7 @@
 	<groupId>com.marcinkulwicki</groupId>
 	<artifactId>testSpringBoot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+
 	<packaging>war</packaging>
 
 	<name>testSpringBoot</name>
@@ -51,13 +52,6 @@
 		</dependency>
 
 
-
-		<!-- This is a web application -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-
 		<!-- Tomcat embedded container-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -67,16 +61,11 @@
 
 		<!-- JSTL for JSP -->
 		<dependency>
-			<groupId>javax.servlet</groupId>
+			<groupId>jstl</groupId>
 			<artifactId>jstl</artifactId>
+			<version>1.2</version>
 		</dependency>
 
-		<!-- Need this to compile JSP -->
-		<dependency>
-			<groupId>org.apache.tomcat.embed</groupId>
-			<artifactId>tomcat-embed-jasper</artifactId>
-			<scope>provided</scope>
-		</dependency>
 
 		<!-- Need this to compile JSP,
             tomcat-embed-jasper version is not working, no idea why -->
@@ -93,7 +82,7 @@
 			<artifactId>bootstrap</artifactId>
 			<version>3.3.7</version>
 		</dependency>
-		
+
 	</dependencies>
 
 	<build>
@@ -104,6 +93,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
-
 </project>

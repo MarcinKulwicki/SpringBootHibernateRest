@@ -26,4 +26,10 @@ public class WelcomeController {
         return "body body body";
     }
 
+    @RequestMapping("/simple")
+    public String simple(){
+
+        return "/WEB-INF/jsp/simple.jsp";
+    }
+
 }
