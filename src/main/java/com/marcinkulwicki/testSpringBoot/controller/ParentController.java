@@ -19,7 +19,7 @@ public class ParentController {
     @Autowired
     ParentService parentService;
 
-    @GetMapping("")
+    @GetMapping("/")
     public ParentDTO showParent(){
         ParentDTO parentDTO = parentService.getParentById(1L);
         return parentDTO;

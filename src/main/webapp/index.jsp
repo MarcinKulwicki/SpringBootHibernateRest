@@ -13,11 +13,14 @@
     <meta charset="UTF-8">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <script src="/JS/simple.js"></script>
+    <script src="/WEB-INF/JS/simple.js"></script>
 </head>
 <body>
 
-Widoczek
+<h1 id="widoczek">Widoczekk</h1>
+
+<div id="parent">hh</div>
+
 
 </body>
 </html>

@@ -29,7 +29,7 @@ public class WelcomeController {
     @RequestMapping("/simple")
     public String simple(){
 
-        return "/WEB-INF/jsp/simple.jsp";
+        return "simple";
     }
 
 }
